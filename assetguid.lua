@@ -12,7 +12,7 @@
 --- @field Null AssetGUID The null GUID. A new GUID initialized as "null".
 AssetGUID = {}
 
---- Construct and return a new AssetGUID.
+--- Construct and return a new AssetGUID object.
 --- @param name string The asset name.
 --- @return AssetGUID
 function AssetGUID.__new(name) end
