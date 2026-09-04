@@ -1,6 +1,6 @@
 # gear-api
 
-An set of in-progress EmmyLua annotations for the GearBlocks scripting API. This project is based off of the official, publicly available documentation located at https://www.gearblocksgame.com/apidoc/index.html.
+A set of in-progress EmmyLua annotations for the GearBlocks scripting API. This project is based off of the official, publicly available documentation located at https://www.gearblocksgame.com/apidoc/index.html.
 
 The goal of this project is to provide function signatures, globals, and type annotations for the most commonly used parts of the API. Above all, it aims to make writing scripts in an IDE environment more straightforward and feature-complete. 
 
