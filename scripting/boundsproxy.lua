@@ -67,6 +67,6 @@ function SqrDistance(point) end
 --- @param lhs Bounds The first bounding box.
 --- @param rhs Bounds The second bounding box.
 --- @return boolean `true` if the bounding boxes are equal; otherwise, `false`.
-function __eq(lhs, rhs) end
+function Bounds:__eq(lhs, rhs) end
 
 --- @alias BoundsProxy Bounds
