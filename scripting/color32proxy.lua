@@ -14,7 +14,7 @@
 --- @field A number The colour's alpha component.
 Colour = {}
 
---- Construct and return a new Colour.
+--- Construct and return a new Colour object.
 --- @param r number The red component to intialize with.
 --- @param g number The green component to intialize with.
 --- @param b number The blue component to intialize with.
@@ -32,3 +32,5 @@ function Colour.__new(r, g, b, a) end
 --- | 3     | alpha    |
 --- @param index number The component index.
 function Colour.newindex(self, index) end
+
+--- @alias Color32Proxy Colour
