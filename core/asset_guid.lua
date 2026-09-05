@@ -8,7 +8,7 @@
 --- local assetGUID = AssetGUID.__new("Propeller 3Blade")
 --- PopConstructions.SpawnPart(assetGUID)
 --- ```
---- @class AssetGUID
+--- @class AssetGUID : IEquatable
 --- @field Null AssetGUID The null GUID. A new GUID initialized as "null".
 AssetGUID = {}
 

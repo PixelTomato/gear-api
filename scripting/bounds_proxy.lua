@@ -7,7 +7,7 @@
 --- ```lua
 --- local bounds = Bounds.__new(Vector3.Zero, Vector3.__new(10, 10, 10))
 --- ```
---- @class Bounds
+--- @class Bounds : IEquatable
 --- @field Center Vector3 The central position of the box.
 --- @field Extents Vector3 The extents of the box (half the size).
 --- @field Size Vector3 The size of the box (twice the extents).
