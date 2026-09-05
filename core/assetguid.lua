@@ -1,7 +1,7 @@
 --- @meta
 --- An asset GUID
 ---
---- Static methods are available via the "AssetGUID" global.
+--- Static methods are available via the `AssetGUID` global.
 ---
 --- Example:
 --- ```lua

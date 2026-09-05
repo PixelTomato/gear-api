@@ -1,7 +1,7 @@
 --- @meta
 --- A bounding box.
 ---
---- Static methods are available via the "Bounds" global.
+--- Static methods are available via the `Bounds` global.
 ---
 --- Example:
 --- ```lua
