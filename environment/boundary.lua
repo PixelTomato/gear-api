@@ -1,0 +1,11 @@
+--- @meta
+--- Provides methods for modifying the scene boundary.
+---
+--- Static methods are available via the "Boundary" global.
+---
+--- Example:
+--- ```lua
+--- Boundary.SetDims(Rect.__new(-100, -100, 200, 200))
+--- ```
+--- @class Boundary : IBoundary
+Boundary = {}
