@@ -18,7 +18,7 @@
 --- @field CanCycleTypes boolean `true` if this attachment has more than one allowed type; otherwise, `false`.
 --- @field IsInterior boolean `true` if this attachment is located in the part's interior, as opposited to on its surface; otherwise, `false`.
 --- @field IsLocked boolean `true` if this attachment is currently locked (preventing it from being changed or deleted); otherwise, `false`.
-IAttachment = {}
+local IAttachment = {}
 
 --- Is the attachment type allowed?
 --- @param type AttachmentTypeFlags The type to check.
