@@ -1,7 +1,7 @@
 --- @meta
 --- Provides methods for modifying the scene boundary.
 ---
---- Static methods are available via the "Boundary" global.
+--- Static methods are available via the `Boundary` global.
 ---
 --- Example:
 --- ```lua
