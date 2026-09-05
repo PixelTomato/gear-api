@@ -1,7 +1,7 @@
 --- @meta
 --- A color.
 ---
---- Static methods are available via the "Colour" global.
+--- Static methods are available via the `Colour` global.
 ---
 --- Example:
 --- ```lua
