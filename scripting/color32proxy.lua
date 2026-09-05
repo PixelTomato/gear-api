@@ -7,7 +7,7 @@
 --- ```lua
 --- local colour = Colour.__new(255, 0, 0, 255)
 --- ```
---- @class Colour
+--- @class Colour : IEquatable<Color32Proxy>
 --- @field R number The colour's red component.
 --- @field G number The colour's green component.
 --- @field B number The colour's blue component.
