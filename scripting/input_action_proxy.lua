@@ -1,0 +1,30 @@
+--- @meta
+--- An input action.
+--- @class InputActionProxy
+--- @field PrimaryKeyName string The primary key name. "None" if not bound.
+--- Names of the primary bound modifier keys. `nil` if none are bound.
+--- 
+--- Only the following are valid modifier key names:
+---  - `LeftShift`
+---  - `RightShift`
+---  - `LeftControl`
+---  - `RightControl`
+---  - `LeftAlt`
+---  - `RightAlt`
+--- @field PrimaryModifierKeyNames string[]
+--- @field SecondaryKeyName string The secondary key name. "None" if not bound.
+--- Names of the secondary bound modifier keys. `nil` if none are bound.
+--- 
+--- Only the following are valid modifier key names:
+---  - `LeftShift`
+---  - `RightShift`
+---  - `LeftControl`
+---  - `RightControl`
+---  - `LeftAlt`
+---  - `RightAlt`
+--- @field SecondaryModifierKeyNames string[]
+--- @field IgnoreExtraModifiers boolean `true` if ignoring modifier keys not bound to this input action; otherwise, `false`.
+--- @field IsBound boolean `true` if a key is bound to this input action; otherwise, `false`.
+--- @field IsTriggered boolean `true` if this input action's key is currently triggered; otherwise, `false`.
+--- @field IsHeld boolean `true` if this input action's key is being held; otherwise, `false`.
+local InputActionProxy = {}
