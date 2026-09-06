@@ -1,0 +1,12 @@
+--- @meta
+--- The input actions.
+---
+--- Static methods are available via the `InputActions` global.
+---
+--- Example:
+--- ```lua
+--- local jumpTriggered = InputActions.IsTriggered(actionID_Jump)
+--- ```
+--- @class InputActions : IInputActions, IKeyBindings
+
+--- @alias InputActionsAsset InputActions
