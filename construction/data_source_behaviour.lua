@@ -1,0 +1,11 @@
+--- @meta
+--- A part data source.
+--- 
+--- Available via a part's `GetBehaviour(name: string)` method.
+--- 
+--- Example:
+--- ```lua
+--- local dataSource = part.GetBehaviour("Data Source")
+--- ```
+--- @class DataSourceBehaviour : PartBehaviourBase, IDataSource
+local DataSourceBehaviour = {}
