@@ -1,0 +1,11 @@
+--- @meta
+--- Provides access to the linker tool's properties.
+--- 
+--- Only available if the builder tool's ID is 2.
+--- @class ILinker
+--- @field TargetedLink ILink The currently targeted link, if any.
+--- @field LinkFromNode ILinkNode The source link node.
+--- @field LinkToNode ILinkNode The destination link node.
+--- @field IsLinking boolean `true` if the linker tool is currently creating a link; otherwise, `false`.
+--- @field IsDeleting boolean `true` if the linker tool is currently deleting a link; otherwise, `false`.
+local ILinker = {}
