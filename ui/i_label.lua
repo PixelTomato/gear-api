@@ -1,0 +1,13 @@
+--- @meta
+--- Provides access to UI label properties.
+--- @class ILabel
+--- @field Text string The text shown by this label.
+--- @field Colour Colour This label's text color.
+--- @field FontStyle FontStyle This label's font style.
+--- @field FontSize number This label's font size.
+--- @field LineSpacing number This label's line spacing.
+--- @field Alignment TextAnchor This label's text alignment.
+--- @field IsRichText boolean `true` if this label's text should support rich text markup; otherwise, `false`.
+--- @field PreferredWidth number The preferred width of this UI element.
+--- @field PreferredHeight number The preferred height of this UI element.
+local ILabel = {}
