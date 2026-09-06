@@ -13,7 +13,7 @@
 ---     -- do something with the parts here...
 --- end
 --- ```
---- @class Parts : IPart, ITransformable, IPhysical, IRenderableToTexture
+--- @class PartDescriptor : IPart, ITransformable, IPhysical, IRenderableToTexture
 Parts = {}
 
---- @alias PartDescriptor Parts
+--- @alias Parts PartDescriptor

@@ -7,7 +7,7 @@
 --- ```lua
 --- local bounds = Bounds.__new(Vector3.Zero, Vector3.__new(10, 10, 10))
 --- ```
---- @class Bounds : IEquatable
+--- @class BoundsProxy : IEquatable
 --- @field Center Vector3 The central position of the box.
 --- @field Extents Vector3 The extents of the box (half the size).
 --- @field Size Vector3 The size of the box (twice the extents).
@@ -69,4 +69,4 @@ function SqrDistance(point) end
 --- @return boolean `true` if the bounding boxes are equal; otherwise, `false`.
 function Bounds:__eq(lhs, rhs) end
 
---- @alias BoundsProxy Bounds
+--- @alias Bounds BoundsProxy
