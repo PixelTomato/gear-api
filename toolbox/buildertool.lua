@@ -17,5 +17,3 @@
 --- @field IsDraggingMoveManipulatorHandle boolean `true` if the player is currently dragging the move manipulator handle; otherwise, `false`.
 --- @field IsDraggingActiveManipulatorHandle boolean `true` if the player is currently dragging the active manipulator handle; otherwise, `false`.
 BuilderTool = {}
-
-BuilderTool.ID = 1
