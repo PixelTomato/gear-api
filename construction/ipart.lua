@@ -1,0 +1,38 @@
+--- @meta
+--- Provides access to part properties.
+--- @class IPart
+--- @field AssetGUID AssetGUID The asset GUID of this part.
+--- @field AssetName string The asset name of this part.
+--- @field ID number The unique identifier of this part within the scene.
+--- @field Idx number The index of this part within the construction it belongs to.
+--- @field Category string The name of this part's category.
+--- @field DisplayName string The display name of this part.
+--- @field FullDisplayName string The display name of this part, including its current dimensions if resizable.
+--- @field IsGizmo boolean `true` if this part is a "gizmo"; otherwise, `false`.
+--- @field RequireUnique boolean `true` if this part is required to be unique in a construction; otherwise, `false`.
+--- @field IsDeprecated boolean `true` if this part is deprecated (hidden in the spawner UI); otherwise `false`.
+--- @field IsResizable boolean `true` if this part can be resized; otherwise, `false`.
+--- @field Mass number The mass of this part.
+--- @field Strength number The strength of this part.
+--- @field IsPaintable boolean `true` if this part is paintable; otherwise, `false`.
+--- @field IsMaterialSwappable boolean `true` if this part's material can be changed; otherwise, `false`.
+--- @field Attachments IPartAttachments This part's attachments component.
+--- @field Properties IPartProperties This part's properties component.
+--- @field Paint IPartPaint This part's paint component.
+--- @field Behaviours IPartBehaviour A list of this part's behaviors.
+--- @field LinkNodes ILinkNode[] A list of this part's link nodes.
+--- @field ParentConstruction IConstruction The construction that this part belongs to.
+--- @field UnitVolume number The unit volume of this part.
+--- @field Bounds Bounds The bounding box in part local space.
+--- @field IsVisible boolean `true` if this part is visible in the scene; otherwise, `false`.
+--- @field IsSelectable boolean `true` if this part can be selected; otherwise, `false`.
+--- @field IsDestroyable boolean `true` if this part can be destroyed; otherwise, `false`.
+--- @field IsCollidable boolean `true` if this part can collide; otherwise, `false`.
+--- @field StageIdx number The kit building stage index of this part.
+--- @field IsEnabled boolean `true` if this part is enabled (it's not inactive in the building stage); otherwise, `false`.
+local IPart = {}
+
+--- Get a part behavior by name.
+--- @param name string The name of the bahavior.
+--- @return string # The part behavior if found, otherwise `nil`.
+function IPart.GetBehaviour(name) end
