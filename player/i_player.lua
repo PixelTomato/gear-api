@@ -1,0 +1,15 @@
+--- @meta
+--- Provides access to a player's properties.
+--- @class IPlayer
+--- @field ID number The unique identifier of this player within the scene.
+--- @field IsLocallyControlled boolean `true` if this player is locally controlled; otherwise, `false`.
+--- @field Targeter ITargeter This player's targeter compoent.
+--- @field Inventory IInventory This player's inventory component.
+--- @field Aim ITransformable This player's aim transform.
+--- @field Toolbox IToolbox This player's toolbox component.
+--- @field IsLocked boolean `true` if this player is locked (seated); otherwise, `false`.
+--- @field CameraMode CameraMode This player's camera mode.
+--- @field IsFreeFlightEnabled boolean `true` if this player is currently in free flight mode; otherwise, `false`.
+--- @field Velocity Vector3 This player's velocity vector.
+--- @field Accelerator Vector3 This player's acceleration vector.
+local IPLayer = {}
