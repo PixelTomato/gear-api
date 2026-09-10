@@ -1,0 +1,25 @@
+--- @meta
+--- Provides access to a text object's properties.
+--- @class ITextObject
+--- @field IsVisible boolean `true` if this text object is visible; otherwise `false`.
+--- @field Position Vector3 The world space position of this text object.
+--- @field Orientation Quaternion The world space orientation of this text object.
+--- Is this text object rotated to face the player?
+---
+--- `true` if this text object is view-facing; otherwise, `false`.
+---
+--- If set to `true`, `Orientation` is overriden.
+--- @field IsViewFacing boolean
+--- @field Width number The width of this text object (in meters).
+--- @field Height number The height of this text object (in meters).
+--- @field IsConstantScreenSize boolean `true` if this text object is a constant screen size; otherwise, `false`.
+--- @field Text string The text shown by this text object.
+--- @field Colour Colour The color applied to this text object.
+--- @field FontSize number The font size of this text object.
+--- Is the text resized to fit within the object?
+---
+--- `true` if the text font size is adjusted for best fit; otherwise, `false`.
+---
+--- Disable to prevent performance spikes caused by font caching.
+--- @field ResizeTextToFit boolean
+local ITextObject = {}
