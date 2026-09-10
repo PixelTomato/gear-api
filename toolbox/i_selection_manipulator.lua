@@ -1,0 +1,14 @@
+--- @meta
+--- Provides access to the builder tool's selection manipulators.
+--- 
+--- Only available if the builder tool's ID is 0.
+--- @class ISelectionManipulator
+--- @field ActiveManipulatorID number The ID of this tool's active manipulator, if any; otherwise `0xff`.
+--- @field ActiveManipulator IManipulator This tool's active manipulator, if any; otherwise, `nil`.
+--- @field IsTargetingManipulatorHandle boolean `true` if the player is targeting a manipulator handle; otherwise, `false`.
+--- @field IsSelectedManipulatorHandle boolean `true` if the player has clicked on a manipulator handle, but not dragged yet; otherwise, `false`.
+--- @field IsDraggingManipulatorHandle boolean `true` if the player is dragging any manipulator handle; otherwise, `false`.
+--- @field IsDraggingMoveManipulatorHandle boolean `true` if the player is dragging the move manipulator handle; otherwise, `false`.
+--- @field IsDraggingActiveManipulatorHandle boolean `true` if the player is dragging the active manipulator handle; otherwise, `false`.
+--- @field IsUsingActiveManipulatorShortcut boolean `true` if the player is using one of the active manipulator's shortcut keys; otherwise, `false`.
+local ISelectionManipulator = {}
