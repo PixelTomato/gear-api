@@ -1,0 +1,11 @@
+--- @meta
+--- A joystick axis.
+--- @class JoystickAxisProxy
+--- @field AxisName string The joystick axis name. "None" if not bound.
+--- @field Deadzone number The deadzone of this joystick axis.
+--- @field Gamma number The gamma of this joystick axis.
+--- @field Centre number The center of this joystick axis.
+--- @field InvertAxis boolean `true` if this joystick axis is inverted; otherwise, `false`.
+--- @field IsBound boolean `true` if a joystick  axis is bound; otherwise, `false`.
+--- @field Value number The value of this joystick axis.
+local JoystickAxisProxy = {}
