@@ -1,0 +1,12 @@
+--- @meta
+--- UI windows.
+--- 
+--- Static methods are available via the `Windows` global.
+--- 
+--- Example:
+--- ```lua
+--- local window = Windows.CreateWindow()
+--- -- do something with the window here...
+--- Windows.DestroyWindow(window)
+--- ```
+--- @class Windows
