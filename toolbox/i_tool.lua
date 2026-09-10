@@ -1,0 +1,14 @@
+--- @meta
+--- Provides access to a tool's properties.
+--- @class ITool
+--- The tool's ID.
+--- | id  | tool     |
+--- | :-: | :------- |
+--- |  0  | builder  |
+--- |  1  | material |
+--- |  2  | linker   |
+--- |  3  | painter  |
+--- |  4  | grabber  |
+--- @field ID number
+--- @field Name string The name of this tool.
+local ITool = {}
