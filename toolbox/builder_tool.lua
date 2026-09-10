@@ -1,16 +1,6 @@
 --- @meta
 --- The builder tool.
---- @class BuilderTool : Toolbase, IBuilder, ISelectionManipulator, IPivotTargeter
---- The tool's ID.
---- | ID  | Tool     |
---- | :-: | :------- |
---- |  0  | Builder  |
---- |  1  | Material |
---- |  2  | Linker   |
---- |  3  | Painter  |
---- |  4  | Grabber  |
---- @field ID number
---- @field Name string The name of this tool.
+--- @class BuilderTool : ToolBase, IBuilder, ISelectionManipulator, IPivotTargeter
 --- @field IsTargetingManipulatorHandle boolean `true` if the player is currently targeting a manipulator handle; otherwise, `false`.
 --- @field IsSelectedManipulatorHandle boolean `true` if the player has clicked on a manipulator handle, but not dragged it yet; otherwise, `false`.
 --- @field IsDraggingManipulatorHandle boolean `true` if the player is currently dragging any manipulator handle; otherwise, `false`.
