@@ -198,4 +198,7 @@ function Vector2.Wrap(vec, minWrapTo, maxWrapTo) end
 --- @param newY number The new y component.
 function Vector2.Set(newX, newY) end
 
+--- Normalize this vector.
+function Vector2.Normalize() end
+
 --- @alias Vector2 Vector2Proxy
