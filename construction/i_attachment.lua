@@ -1,6 +1,6 @@
 --- @meta
 --- An attachment between two parts.
---- @class IAttachment : INullCheck
+--- @class IAttachment
 --- @field Type AttachmentTypeFlags The type of this attachment.
 --- @field TypeName string The name of this attachment's type.
 --- @field OwnerPart IPart The part that owns this attachment.

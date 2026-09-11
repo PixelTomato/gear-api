@@ -1,6 +1,6 @@
 --- @meta
 --- Provides access to player inventory properties.
---- @class IInventory : INullCheck
+--- @class IInventory
 local IInventory = {}
 
 --- Set the inventory mode.

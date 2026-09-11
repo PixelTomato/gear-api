@@ -1,6 +1,6 @@
 --- @meta
 --- Provides access to a manipulator's properties.
---- @class IManipulator : INullCheck
+--- @class IManipulator
 --- The unique identifier of this manipulator within the tool.
 --- 
 --- | id | manipulator |

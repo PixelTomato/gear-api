@@ -1,6 +1,6 @@
 --- @meta
 --- Provides access to a toolbox's part selection.
---- @class IPartSelection : INullCheck
+--- @class IPartSelection
 --- @field NumSelectedParts number The number of selected parts.
 --- @field SelectedParts IPart[] The list of selected parts.
 --- @field IsPivotTranslatable boolean `true` if this part selection's current pivot point can be translated; otherwise, `false`.

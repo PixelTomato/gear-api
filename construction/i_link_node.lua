@@ -1,6 +1,6 @@
 --- @meta
 --- A node that can be linked to another part's node, creating a logical connection between them.
---- @class ILinkNode : INullCheck
+--- @class ILinkNode
 --- @field Idx number The index of this node within the part it belongs to.
 --- @field TypeName string The name of this node's link type.
 --- @field IsTypeHidden boolean `true` if the link type is currently hidden; otherwise, `false`.
