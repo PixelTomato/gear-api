@@ -1,4 +1,4 @@
 --- @meta
 --- Provides access to the properties of a focusable UI element.
---- @class IFocusable : InputField, NumberField
+--- @class IFocusable
 local IFocusable = {}
