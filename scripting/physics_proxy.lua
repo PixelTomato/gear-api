@@ -19,7 +19,7 @@ Physics = {}
 function Physics.CheckSphere(centre, radius) end
 
 --- Check if a capsule region contains any scene objects.
---- @param centre The center of the capsule, in world coordinates.
+--- @param centre Vector3 The center of the capsule, in world coordinates.
 --- @param offsetToEnd Vector3 A vector from the capsule center to the center of one of its end spheres, in world coordinates.
 --- @param radius number The radius of the capsule.
 --- @return boolean `true` if anything is inside the capsule; otherwise, `false`.
@@ -61,7 +61,7 @@ function Physics.RayCast(origin, direction, maxDistance) end
 --- ```
 --- @param origin Vector3 The starting point of the ray, in world coordinates.
 --- @param direction Vector3 The direction of the ray, in world coordinates.
---- @param maxDistance The maximum distance the ray should travel.
+--- @param maxDistance number The maximum distance the ray should travel.
 --- @return number # The number of hit points found.
 function Physics.RayCastAll(origin, direction, maxDistance) end
 
