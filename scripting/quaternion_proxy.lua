@@ -21,15 +21,13 @@
 --- @operator mul(Quaternion) : Quaternion
 Quaternion = {}
 
-Quaternion.Identity = Quaternion(0, 1, 2, 3)
-
 --- Construct a new quaternion.
 --- @param x number The initial x component.
 --- @param y number The initial y component.
 --- @param z number The initial z component.
 --- @param w number The initial w component.
 --- @return Quaternion
-function Quaternion(x, y, z, w) end
+function Quaternion.__new(x, y, z, w) end
 
 --- Create a quaternion from an angle-axis representation.
 --- @param angle number The angle around the axis.
