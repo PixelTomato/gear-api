@@ -7,7 +7,7 @@
 --- ```lua
 --- local rect = Rect.__new(0, 0, 10, 10)
 --- ```
---- @class RectProxy : IEquatable<RectProxy>
+--- @class RectProxy
 --- @field X number The x coordinate of this rectangle.
 --- @field Y number The y coordinate of this rectangle.
 --- @field Width number The width of this rectangle.

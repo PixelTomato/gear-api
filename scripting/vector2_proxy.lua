@@ -7,7 +7,7 @@
 --- local vec = Vector2.__new(1, 2)
 --- vec = Vector2.Normalize(vec)
 --- ```
---- @class Vector2Proxy : IEquatable<Vector2Proxy>
+--- @class Vector2Proxy
 --- @field X number The x component of this vector.
 --- @field Y number The y component of this vector.
 --- @field One Vector2 A new vector with all components initialized to one.

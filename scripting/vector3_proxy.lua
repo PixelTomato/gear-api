@@ -8,7 +8,7 @@
 --- local vec = Vector3.__new(1, 2, 3)
 --- vec = Vector3.Normalize(vec)
 --- ```
---- @class Vector3Proxy : IEquatable<Vector3Proxy>
+--- @class Vector3Proxy
 --- @field X number The x component of this vector.
 --- @field Y number The y component of this vector.
 --- @field Z number The z component of this vector.

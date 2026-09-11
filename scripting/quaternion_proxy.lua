@@ -8,7 +8,7 @@
 --- local q = Quaternion.__new(1, 2, 3, 4)
 --- q = Quaternion.Normalize(q)
 --- ```
---- @class QuaternionProxy : IEquatable<QuaternionProxy>
+--- @class QuaternionProxy
 --- @field X number The x component of this quaternion.
 --- @field Y number The y component of this quaternion.
 --- @field Z number The z component of this quaternion.
