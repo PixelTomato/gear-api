@@ -1,7 +1,7 @@
 --- @meta
 --- Provides access to a toolbox's undo/redo command history.
 --- @class ICommandHistory
---- @field Commands IReadOnlyCollection A list of the commands in this history.
+--- @field Commands ICommand[] A list of the commands in this history.
 --- @field Index number The index in this history at which the next command will be added.
 local ICommandHistory = {}
 

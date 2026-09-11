@@ -5,7 +5,7 @@
 --- @field NumComposites number The number of composites this construction has.
 --- @field NumParts number The number of parts this construction has.
 --- @field IsAtomic boolean `true` if this construction has only one part; otherwise, `false`.
---- @field Parts IEnumerable A list of this construction's parts.
+--- @field Parts IPart[] A list of this construction's parts.
 --- @field PreviewImage Texture A texture with this construction's preview image.
 --- @field CharacterPlayerID number If this construction is a player character, that player's ID; otherwise, null (0xFF). See `IsPlayerCharacter`.
 --- @field BuilderPlayerID number If this construction is currently frozen, the ID of the player that froze it; otherwise, null (0xFF). See `IsFrozen`.
@@ -42,5 +42,5 @@ function IConstruction.CalcWorldBounds(activeStageOnly) end
 function IConstruction.CalcWorldCentreOfMass() end
 
 --- Add the construction's part(s) to a catalogue.
---- @param partCatalogue IDictionary A catalogue of parts to fill from this construction.
+--- @param partCatalogue {part: AssetGUID, count: number} A catalogue of parts to fill from this construction.
 function IConstruction.AddPartsToCatalogue(partCatalogue) end

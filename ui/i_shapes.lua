@@ -25,12 +25,12 @@ function IShapes.AddConvexPrimitive(vertices) end
 function IShapes.AddConvexPrimitive(vertices, colour) end
 
 --- Add a line shape with a specific thickness.
---- @param points Vector[] The list of vertices to connect in order to form the line.
+--- @param points Vector2[] The list of vertices to connect in order to form the line.
 --- @param thickness number The thickness of the line in pixels.
 function IShapes.AddLine(points, thickness) end
 
 --- Add a line shape with a specific thickness and color.
---- @param points Vector[] The list of vertices to connect in order to form the line.
+--- @param points Vector2[] The list of vertices to connect in order to form the line.
 --- @param thickness number THe thickness of the line in pixels.
 --- @param colour Colour The color of the line.
 function IShapes.AddLine(points, thickness, colour) end
