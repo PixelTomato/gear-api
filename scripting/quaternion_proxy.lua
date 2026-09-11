@@ -46,7 +46,7 @@ function Quaternion.Euler(x, y, z) end
 --- @param fromDirection Vector3 The direction to rotate from.
 --- @param toDirection Vector3 The direction to rotate to.
 --- @return Quaternion
-function Quaternion.FromToRotation() end
+function Quaternion.FromToRotation(fromDirection, toDirection) end
 
 --- Create a quaternion with a rotation that points in a specific direction.
 --- @param forward Vector3 The direction to point in.
