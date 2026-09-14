@@ -34,3 +34,6 @@ function IShapes.AddLine(points, thickness) end
 --- @param thickness number THe thickness of the line in pixels.
 --- @param colour Colour The color of the line.
 function IShapes.AddLine(points, thickness, colour) end
+
+--- Clear the current shapes.
+function IShapes.Clear() end

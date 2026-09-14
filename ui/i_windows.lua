@@ -4,9 +4,9 @@
 local IWindows = {}
 
 --- Create a new UI window.
---- @return IWindow
+--- @return Window
 function IWindows.CreateWindow() end
 
 --- Destroy a previously created window.
---- @param window IWindow The window to destroy.
+--- @param window Window The window to destroy.
 function IWindows.DestroyWindow(window) end
