@@ -4,71 +4,71 @@
 local IElementFactory = {}
 
 --- Create a horizontal `ScrollView` element.
---- @return IElement
+--- @return ScrollView
 function IElementFactory.CreateHorizontalScrollView() end
 
 --- Create a vertical `ScrollView` element.
---- @return IElement
+--- @return ScrollView
 function IElementFactory.CreateVerticalScrollView() end
 
 --- Create a `Label` element.
---- @return IElement
+--- @return Label
 function IElementFactory.CreateLabel() end
 
 --- Create an `Image` element.
---- @return IElement
+--- @return Image
 function IElementFactory.CreateImage() end
 
 --- Create a `ButtonText` element.
---- @return IElement
+--- @return ButtonText
 function IElementFactory.CreateTextButton() end
 
 --- Create a `ButtonImage` element.
---- @return IElement
+--- @return ButtonImage
 function IElementFactory.CreateImageButton() end
 
 --- Create a `Slider` element.
---- @return IElement
+--- @return Slider
 function IElementFactory.CreateSlider() end
 
 --- Create a `InputField` element.
---- @return IElement
+--- @return InputField
 function IElementFactory.CreateInputField() end
 
 --- Create a `NumberField` element.
---- @return IElement
+--- @return NumberField
 function IElementFactory.CreateNumberField() end
 
 --- Create a `Dropdown` element.
---- @return IElement
+--- @return Dropdown
 function IElementFactory.CreateDropdown() end
 
 --- Create a `LabelledToggle` element.
---- @return IElement
+--- @return LabelledToggle
 function IElementFactory.CreateLabelledToggle() end
 
 --- Create a `LabelledSlider` element.
---- @return IElement
+--- @return LabelledSlider
 function IElementFactory.CreateLabelledSlider() end
 
 --- Create a `LabelledInputField` element.
---- @return IElement
+--- @return LabelledInputField
 function IElementFactory.CreateLabelledInputField() end
 
 --- Create a `LabelledNumberField` element.
---- @return IElement
+--- @return LabelledNumberField
 function IElementFactory.CreateLabelledNumberField() end
 
 --- Create a `LabelledDropdown` element.
---- @return IElement
+--- @return LabelledDropdown
 function IElementFactory.CreateLabelledDropdown() end
 
 --- Create a `Shapes` element.
---- @return IElement
+--- @return Shapes
 function IElementFactory.CreateShapes() end
 
 --- Create a `TimeSeriesGraph` element.
---- @return IElement
+--- @return TimeSeriesGraph
 function IElementFactory.CreateTimeSeriesGraph() end
 
 --- Destroy a previously created UI element.
