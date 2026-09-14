@@ -9,5 +9,5 @@
 --- -- do something with the window here...
 --- Windows.DestroyWindow(window)
 --- ```
---- @class Windows : IWindows
+--- @class Windows : Showable, IWindows
 Windows = {}
