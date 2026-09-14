@@ -98,3 +98,32 @@ LoadScriptsEnabled = nil
 
 --- @type number The strength of a fully-charged shove from the grabber tool. Defaults to **25.0**.
 ShoveStrength = nil
+
+--- @type Colour The color of the chroma key. Defaults to **Colour(0, 255, 0, 255)**.
+ChromaKeyColour = nil
+
+--- @type number The ID of the mouse cursor type to display. Defaults to **0**.
+---
+--- id | type
+--- -  | :-
+--- 0  | default
+--- 1  | resize horizontal
+--- 2  | resize vertical
+--- 3  | resize diagonal (top-left to lower-right)
+--- 4  | resize diagonal (top-right to lower-left)
+CursorID = nil
+
+--- @type boolean Whether the ability of the player to control part behaviors is disabled. Defaults to **false**.
+LocalPlayerControlInputDisabled = nil
+
+--- @type boolean Whether the player character mesh is hidden in first person mode. Defaults to **true**.
+HideMeshesForFPEnabled = nil
+
+--- @type boolean Whether to include all locked attached parts when making a selection. Defaults to **true**.
+SelectLockedPartsEnabled = nil
+
+--- @type boolean Whether the help UI overlay is enabled. Defaults to **true**.
+HelpOverlayEnabled = nil
+
+--- @type boolean Whether energy consumption is enabled. Defaults to **false**.
+EnergyEnabled = nil
