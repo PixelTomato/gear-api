@@ -31,13 +31,13 @@ setStgMode_Decrement = 2
 
 --- @alias ForceMode number
 --- Apply a continuous force to the rigidbody, using its mass.
-forceMode_Force = 0x01
---- Apply a continuous acceleration to the rigidbody, ignoring its mass.
-forceMode_Acceleration = 0x02
+forceMode_Force = 0
 --- Apply an instant force impulse to the rigidbody, using its mass.
-forceMode_Impulse = 0x04
+forceMode_Impulse = 1
 --- Apply an instant velocity change to the rigidbody, ignoring its mass.
-forceMode_VelocityChange = 0x08
+forceMode_VelocityChange = 2
+--- Apply a continuous acceleration to the rigidbody, ignoring its mass.
+forceMode_Acceleration = 5
 
 --- @alias InventoryMode number
 --- Limited parts.
@@ -108,3 +108,62 @@ align_VertEdges = 0x20
 align_HorizCentre = 0x40
 --- Offset from the vertical centre with a height.
 align_VertCentre = 0x80
+
+--- @alias ActionID number
+actionID_MoveForward = 0
+actionID_MoveBackward = 1
+actionID_StrafeLeft = 2
+actionID_StrafeRight = 3
+actionID_Run = 4
+actionID_Jump = 5
+actionID_Crouch = 6
+actionID_Unlock = 7
+actionID_FreeFlight = 10
+actionID_CyclePlayerCamera = 11
+actionID_DollyPlayerCamera = 12
+actionID_Select = 16
+actionID_Delete = 17
+actionID_Freeze = 18
+actionID_Duplicate = 19
+actionID_CycleAttachmentType = 20
+actionID_ToggleAttachmentLocked = 21
+actionID_Use = 26
+actionID_Shove = 27
+actionID_Transform = 30
+actionID_Dolly = 31
+actionID_RotateMouse = 32
+actionID_RotateMouseAlt = 33
+actionID_Resize = 34
+actionID_TransformVertPlus = 40
+actionID_TransformVertMinus = 41
+actionID_TransformHorizPlus = 42
+actionID_TransformHorizMinus = 43
+actionID_TransformForwardPlus = 44
+actionID_TransformForwardMinus = 45
+actionID_Undo = 50
+actionID_Redo = 51
+actionID_RepairDamage = 52
+actionID_SelectToolBuilder = 1000
+actionID_SelectToolMaterial = 1001
+actionID_SelectToolLinker = 1002
+actionID_SelectToolPainter = 1003
+actionID_SelectToolGrabber = 1004
+actionID_SelectToolScene = 1005
+actionID_ToolMenu = 1010
+actionID_SelectionMenu = 1011
+actionID_ConstructionMenu = 1012
+actionID_PartBehaviourMenu = 1013
+actionID_SelectManipulatorTranslation = 1020
+actionID_SelectManipulatorRotation = 1021
+actionID_SelectManipulatorResize = 1022
+actionID_SelectToggle = 1030
+actionID_SelectAll = 1031
+actionID_SelectAdd = 1032
+actionID_SelectGrow = 1033
+actionID_SelectShrink = 1034
+actionID_SelectInvert = 1035
+actionID_DuplicateSelection = 1036
+actionID_Pause = 1040
+actionID_Help = 1041
+actionID_QuickSave = 1042
+actionID_QuickLoad = 1043
